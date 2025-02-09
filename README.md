@@ -18,9 +18,6 @@ Cypress 14.0.2
 
 Clone o repositório:
 
-git clone https://github.com/seu-usuario/testedeinterface.git
-cd testedeinterface
-
 Instale as dependências:
 
 npm install
@@ -66,9 +63,5 @@ Os testes automatizados serão executados.
 🛠️ Configuração do Cypress
 
 O arquivo cypress.config.ts contém as configurações do Cypress. Caso precise modificar os testes, edite os arquivos dentro de cypress/e2e/.
-
-📜 Licença
-
-Este projeto está sob a licença MIT.
 
 👨‍💻 Desenvolvido por Alan Rodrigues Barbosa 🚀
