@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Teste de Interface com Cypress
 
-## Getting Started
+Este projeto utiliza Next.js e Cypress para testes de interface automatizados.
 
-First, run the development server:
+🚀 Tecnologias
 
-```bash
+Next.js 15.1.6
+
+React 19.0.0
+
+Tailwind CSS 3.4.1
+
+TypeScript 5.x
+
+Cypress 14.0.2
+
+📦 Instalação
+
+Clone o repositório:
+
+git clone https://github.com/seu-usuario/testedeinterface.git
+cd testedeinterface
+
+Instale as dependências:
+
+npm install
+# ou
+yarn install
+
+▶️ Executando o projeto
+
+Iniciar o servidor Next.js:
+
 npm run dev
-# or
+# ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O servidor será iniciado em http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🧪 Executando os testes com Cypress
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Abrir a interface do Cypress:
 
-## Learn More
+npx cypress open
 
-To learn more about Next.js, take a look at the following resources:
+Rodar os testes no terminal:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npx cypress run
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Os testes automatizados serão executados.
 
-## Deploy on Vercel
+📁 Estrutura de Pastas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📂 testedeinterface/
+ ├── 📂 cypress/        # Testes end-to-end
+ │   ├── 📂 e2e/       # Testes de interface
+ │   ├── 📂 fixtures/  # Dados fictícios para os testes
+ │   ├── 📂 support/   # Configuração do Cypress
+ │   ├── cypress.config.ts # Configuração principal
+ ├── 📂 src/           # Código fonte da aplicação
+ │   ├── 📂 components/ # Componentes React
+ │   ├── 📂 pages/      # Páginas do Next.js
+ ├── package.json      # Dependências e scripts
+ ├── README.md         # Documentação do projeto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🛠️ Configuração do Cypress
+
+O arquivo cypress.config.ts contém as configurações do Cypress. Caso precise modificar os testes, edite os arquivos dentro de cypress/e2e/.
+
+📜 Licença
+
+Este projeto está sob a licença MIT.
+
+👨‍💻 Desenvolvido por Alan Rodrigues Barbosa 🚀
